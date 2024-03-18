@@ -5,7 +5,7 @@ import streamlit as st
 car_data = pd.read_csv('vehicles.csv')
 
 st.header('Find your new car here!', divider='rainbow')
-st.header('_The Best Makes_ in one click :blue[cool] :sunglasses:')
+st.header('_The Best opportunities_ in one click :sunglasses:')
 
 hist_button = st.button('Create a histogram')  # criar um botão
 
@@ -26,7 +26,7 @@ if hist_button:
 
 scatter_button = st.button('Create a Scatter Plot')  # criar um botão
 
-if hist_button:
+if scatter_button:
     # se o botão for clicado
     # escrever uma mensagem
     st.write('Creating a Scatter Plot with Vehicles Info')
