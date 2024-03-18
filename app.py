@@ -3,7 +3,7 @@ import plotly_express as px
 import streamlit as st
 
 car_data = pd.read_csv(
-    'C:\\Users\\Raphael\\Documents\\GitHub\\Front-end-Web-Development\\05_Auto_Market\\vehicles.csv')
+    'C:\\Users\\Raphael\\Documents\\GitHub\\Front-end-Web-Development\\vehicles.csv')
 
 st.header('Find your new car here!', divider='rainbow')
 st.header('_The Best Makes_ in one click :blue[cool] :sunglasses:')
